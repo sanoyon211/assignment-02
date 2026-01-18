@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+  background: linear-gradient(225deg,  #F7E93F 0%, #FB09B4 50%, #9100F8 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 12px 16px;
+  border: 1px solid;
+  border-radius: 999999px;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+
+}
+.btn:hover{
+  border: 1px solid #00FF88;
+  background: transparent;
+}
