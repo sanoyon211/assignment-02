@@ -1,17 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assignment-02</title>
-  <link rel="stylesheet" href="/styles/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style type="text/tailwindcss">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-02</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
       @theme {
-        --color-clifford: #da373d;
-        --color-primary-bg: #1A0B2E;
-        --color-secondary-bg: #1A0B2E;
+        --color-green: #00FF88;
+        --color-primary-bg: #1a0b2e;
+        --color-secondary-bg: #1a0b2e;
         --color-secondary-white: rgba(65, 37, 103, 1);
 
         --breakpoint-sm: 576px;
@@ -20,7 +26,7 @@
         --container-max-width: 1210px;
       }
 
-      .container{
+      .container {
         max-width: var(--container-max-width);
         margin-left: auto;
         margin-right: auto;
@@ -28,48 +34,131 @@
         padding-right: 5px;
       }
     </style>
-</head>
-<body class="inter">
-  <header>
-    <!-- for desktop -->
-    <nav class=" bg-primary-bg overflow-hidden hidden sm:block border-b border-secondary-white ">
-      <div class="container flex flex-row justify-between items-center my-4">
-        <div><img class="max-w-[219px]" src="assets/TechWave.png" alt="not found"></div>
-        <ul class="flex flex-row gap-x-8 text-white text-white font-base font-medium leading-[130%]">
-          <li><a href="">About</a></li>
-          <li><a href="">Episodes</a></li>
-          <li><a href="">Host</a></li>
-        </ul>
-        <button class="btn"><div class="text-white font-base font-semibold">Subscribe</div></button>
-      </div>
-    </nav>
-    <!-- for mobile -->
-    <nav class="bg-primary-bg overflow-hidden sm:hidden border-b border-secondary-white ">
-      <div class="flex flex-row justify-between mx-5 my-4.5">
-        <img class="max-w-[137px]" src="assets/TechWave.png" alt="">
-        <img class="w-6" src="assets/hamburger-menu.png" alt="">
-      </div>
+  </head>
+  <body class="inter">
+    <header>
+      <!-- for desktop -->
+      <nav
+        class="bg-primary-bg overflow-hidden hidden sm:block border-b border-secondary-white"
+      >
+        <div class="container flex flex-row justify-between items-center my-4">
+          <div>
+            <img
+              class="max-w-[219px]"
+              src="assets/TechWave.png"
+              alt="not found"
+            />
+          </div>
+          <ul
+            class="flex flex-row gap-x-8 text-white text-white font-base font-medium leading-[130%]"
+          >
+            <li><a href="">About</a></li>
+            <li><a href="">Episodes</a></li>
+            <li><a href="">Host</a></li>
+          </ul>
+          <button class="btn">
+            <div class="text-white font-base font-semibold">Subscribe</div>
+          </button>
+        </div>
+      </nav>
+      <!-- for mobile -->
+      <nav
+        class="bg-primary-bg overflow-hidden sm:hidden border-b border-secondary-white"
+      >
+        <div class="flex flex-row justify-between mx-5 my-4.5">
+          <img class="max-w-[137px]" src="assets/TechWave.png" alt="" />
+          <img class="w-6" src="assets/hamburger-menu.png" alt="" />
+        </div>
+      </nav>
+    </header>
 
-    </nav>
     <!-- hero section -->
-    <section  id="hero" 
-              class="flex justify-center min-h-screen bg-[url('../assets/hero-bg.png')] bg-no-repeat bg-cover bg-center sm:bg-[position:center_65%] flex justify-center ">
+    <section
+      id="hero"
+      class="flex justify-center bg-[url('./assets/mobile-bg.png')] sm:bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover bg-center flex justify-center"
+    >
       <div class="flex flex-col items-center mt-10 sm:mt-[101px]">
         <div id="hero-circle" class="relative mb-6 sm:mb-10">
-          <img class=" max-w-50 sm:max-w-[350px]"  src="assets/hero-circle.png" alt="">
-          <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  max-w-[80px] sm:max-w-[200px]" src="assets/microphone.png" alt="">
-          <div class="absolute z-100 top-1 right-0 sm:top-3 sm:right-6 bg-[#00FF88] font-semibold text-base text-[#1A0B2E] px-4 py-2 rounded-full cursor-pointer">NEW</div>
+          <img
+            class="max-w-50 sm:max-w-[350px]"
+            src="assets/hero-circle.png"
+            alt=""
+          />
+          <img
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[80px] sm:max-w-[200px]"
+            src="assets/microphone.png"
+            alt=""
+          />
+          <div
+            class="absolute z-100 top-1 right-0 sm:top-3 sm:right-6 bg-[#00FF88] font-semibold text-base text-[#1A0B2E] px-4 py-2 rounded-full cursor-pointer"
+          >
+            NEW
+          </div>
         </div>
         <div class="flex flex-col justify-center items-center">
-          <h2 class="text-[40px] sm:text-6xl font-extrabold text-white mb-2">TechWave</h2>
-          <p class="max-w-100 sm:max-w-[550px] text-base text-white text-center mb-6">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+          <h2 class="text-[40px] sm:text-6xl font-extrabold text-white mb-2">
+            TechWave
+          </h2>
+          <p
+            class="max-w-100 sm:max-w-[550px] text-base text-white text-center mb-6"
+          >
+            Your daily dose of tech insights, productivity hacks, and personal
+            growth
+          </p>
           <div class="flex flex-row gap-x-2 mb-[38px] sm:mb-[101px]">
-            <button class="btn flex flex-row gap-2 items-center "><img src="assets/spotify.png" alt=""><div class="text-base font-semibold text-white">Listen on Spotify</div></button>
-            <button class="btn2 flex flex-row gap-2 items-center "><img src="assets/message.png" alt=""><div class="text-base font-semibold text-[#00FF88] ">Subscribe</div></button>
+            <button class="btn flex flex-row gap-2 items-center">
+              <img src="assets/spotify.png" alt="" />
+              <div class="text-base font-semibold text-white">
+                Listen on Spotify
+              </div>
+            </button>
+            <button class="btn2 flex flex-row gap-2 items-center">
+              <img src="assets/message.png" alt="" />
+              <div class="text-base font-semibold text-[#00FF88]">
+                Subscribe
+              </div>
+            </button>
           </div>
         </div>
       </div>
     </section>
-  </header>
-</body>
+
+    <!-- Podcast section -->
+    <section class="bg-primary-bg overflow-hidden">
+      <div class="container flex flex-col gap-10 sm:gap-20 justify-center items-center my-10  sm:mt-[50px] sm:mb-[120px]">
+        <div class=" text-center mx-5">
+          <h2 class="text-[32px] sm:text-5xl font-bold text-white mb-4">About the Podcast</h2>
+          <p class="text-base text-white leading-[20px]">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. <br class="hidden md:block" />
+            We break down complex topics into digestible insights, explore
+            productivity strategies that actually work, <br class="hidden md:block" />
+            and share stories of personal growth from industry leaders.
+            <br /><br />
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+        </div>
+        <div class="bg-secondary-white w-[95%] sm:w-full h-[1px]"></div>
+        <div class="container grid grid-cols-2 gap-10 sm:flex sm:flex-row sm:justify-between">
+          <div class="flex flex-col gap-4 justify-center items-center">
+            <h3 class="text-[40px] sm:text-5xl font-black text-green ">150K+</h3>
+            <p class="text-base leading-[20px] text-white">Monthly Listeners</p>
+          </div>
+          <div class="flex flex-col gap-4 justify-center items-center">
+            <h3 class="text-[40px] sm:text-5xl font-black text-green ">200+</h3>
+            <p class="text-base leading-[20px] text-white">Episodes Published</p>
+          </div>
+          <div class="flex flex-col gap-4 justify-center items-center">
+            <h3 class="text-[40px] sm:text-5xl font-black text-green ">4.9★</h3>
+            <p class="text-base leading-[20px] text-white">Average Rating</p>
+          </div>
+          <div class="flex flex-col gap-4 justify-center items-center">
+            <h3 class="text-[40px] sm:text-5xl font-black text-green ">50+</h3>
+            <p class="text-base leading-[20px] text-white">Industry Experts</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
