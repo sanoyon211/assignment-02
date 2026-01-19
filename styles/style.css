@@ -35,4 +35,9 @@
   border: 1px solid;
 }
 
-
+.card1{
+  transition: transform 0.3s ease;
+}
+.card1:hover{
+  transform: translateY(-8px) scale(1.05);
+}
