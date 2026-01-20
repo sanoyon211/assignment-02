@@ -39,7 +39,7 @@
     <header>
       <!-- for desktop -->
       <nav
-        class="bg-primary-bg overflow-hidden hidden sm:block border-b border-secondary-white"
+        class="bg-primary-bg overflow-hidden hidden md:block border-b border-secondary-white"
       >
         <div class="container flex flex-row justify-between items-center my-4">
           <div>
@@ -65,11 +65,11 @@
       </nav>
       <!-- for mobile -->
       <nav
-        class="bg-primary-bg overflow-hidden sm:hidden border-b border-secondary-white"
+        class="bg-primary-bg overflow-hidden md:hidden border-b border-secondary-white"
       >
-        <div class="flex flex-row justify-between mx-5 my-4.5">
-          <img class="max-w-[137px]" src="assets/TechWave.png" alt="" />
-          <img class="w-6" src="assets/hamburger-menu.png" alt="" />
+        <div class="flex flex-row justify-between mx-5 my-4.5 sm:mx-6 sm:my-5.5">
+          <img class="max-w-[137px] sm:max-w-[170px]" src="assets/TechWave.png" alt="" />
+          <img class="w-6 md:w-7" src="assets/hamburger-menu.png" alt="" />
         </div>
       </nav>
 
@@ -78,35 +78,35 @@
         id="hero"
         class="flex justify-center bg-[url('./assets/mobile-bg.png')] sm:bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-cover bg-center flex justify-center"
       >
-        <div class="flex flex-col items-center mt-10 sm:mt-[101px]">
-          <div id="hero-circle" class="relative mb-6 sm:mb-10">
+        <div class="flex flex-col items-center mt-10 md:mt-[101px]">
+          <div id="hero-circle" class="relative mb-6 md:mb-10">
             <img
-              class="max-w-50 sm:max-w-[350px]"
+              class="max-w-50 sm:max-w-[250px] md:max-w-[350px]"
               src="assets/hero-circle.png"
               alt=""
             />
             <img
-              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[80px] sm:max-w-[200px]"
+              class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-[80px] sm:max-w-[100px] md:max-w-[200px]"
               src="assets/microphone.png"
               alt=""
             />
             <div
-              class="absolute z-100 top-1 right-0 sm:top-3 sm:right-6 bg-[#00FF88] font-semibold text-base text-[#1A0B2E] px-4 py-2 rounded-full cursor-pointer"
+              class="absolute z-100 top-1 right-0 md:top-3 md:right-6 bg-[#00FF88] font-semibold text-base text-[#1A0B2E] px-4 py-2 rounded-full cursor-pointer"
             >
               NEW
             </div>
           </div>
           <div class="flex flex-col justify-center items-center">
-            <h2 class="text-[40px] sm:text-6xl font-extrabold text-white mb-2">
+            <h2 class="text-[40px] sm:text-5xl md:text-6xl font-extrabold text-white mb-2">
               TechWave
             </h2>
             <p
-              class="max-w-100 sm:max-w-[550px] text-base text-white text-center mb-6 mx-2 sm:mx-0"
+              class="max-w-100 sm:max-w-[480x] md:max-w-[550px] text-base text-white text-center mb-6 mx-2 md:mx-0"
             >
               Your daily dose of tech insights, productivity hacks, and personal
               growth
             </p>
-            <div class="flex flex-row gap-x-2 mb-[38px] sm:mb-[101px]">
+            <div class="flex flex-row gap-x-2 mb-[38px] md:mb-[101px]">
               <button class="btn flex flex-row gap-2 items-center">
                 <img src="assets/spotify.png" alt="" />
                 <div class="text-base font-semibold text-white">
@@ -128,10 +128,10 @@
     <!-- Podcast section -->
     <section class="bg-primary-bg overflow-hidden">
       <div
-        class="container flex flex-col gap-10 sm:gap-20 justify-center items-center my-[40px] sm:mt-[50px] sm:mb-[120px]"
+        class="container flex flex-col gap-10 sm:gap-15 md:gap-20 justify-center items-center my-[40px] sm:my-[50px] md:mt-[50px] md:mb-[120px]"
       >
         <div class="text-center mx-5">
-          <h2 class="text-[32px] sm:text-5xl font-bold text-white mb-4">
+          <h2 class="text-[32px] sm:text-[38px] md:text-5xl font-bold text-white mb-4">
             About the Podcast
           </h2>
           <p class="text-base text-white leading-[20px]">
@@ -146,26 +146,26 @@
             their day with TechWave.
           </p>
         </div>
-        <div class="bg-secondary-white w-[95%] sm:w-full h-[1px]"></div>
+        <div class="bg-secondary-white w-[95%] md:w-full h-[1px]"></div>
         <div
-          class="container grid grid-cols-2 gap-10 sm:flex sm:flex-row sm:justify-between"
+          class="container grid grid-cols-2 gap-10 md:flex md:flex-row md:justify-between"
         >
           <div class="flex flex-col gap-4 justify-center items-center">
-            <h3 class="text-[40px] sm:text-5xl font-black text-green">150K+</h3>
+            <h3 class="text-[40px] md:text-5xl font-black text-green">150K+</h3>
             <p class="text-base leading-[20px] text-white">Monthly Listeners</p>
           </div>
           <div class="flex flex-col gap-4 justify-center items-center">
-            <h3 class="text-[40px] sm:text-5xl font-black text-green">200+</h3>
+            <h3 class="text-[40px] md:text-5xl font-black text-green">200+</h3>
             <p class="text-base leading-[20px] text-white">
               Episodes Published
             </p>
           </div>
           <div class="flex flex-col gap-4 justify-center items-center">
-            <h3 class="text-[40px] sm:text-5xl font-black text-green">4.9★</h3>
+            <h3 class="text-[40px] md:text-5xl font-black text-green">4.9★</h3>
             <p class="text-base leading-[20px] text-white">Average Rating</p>
           </div>
           <div class="flex flex-col gap-4 justify-center items-center">
-            <h3 class="text-[40px] sm:text-5xl font-black text-green">50+</h3>
+            <h3 class="text-[40px] md:text-5xl font-black text-green">50+</h3>
             <p class="text-base leading-[20px] text-white">Industry Experts</p>
           </div>
         </div>
@@ -173,21 +173,21 @@
     </section>
 
     <!-- Why choose section -->
-    <section class="bg-secondary-bg py-[40px] sm:py-[120px]">
-      <div class="container flex flex-col gap-6 sm:gap-8">
-        <div class="text-[32px] sm:text-5xl font-bold text-white text-center">
+    <section class="bg-secondary-bg py-[40px] sm:py-[60px] md:py-[120px]">
+      <div class="container flex flex-col gap-6 sm:gap-7 md:gap-8">
+        <div class="text-[32px] sm:text-[38px] md:text-5xl font-bold text-white text-center">
           Why Choose TechWave
         </div>
         <div
           id="choose-card"
-          class="flex flex-col gap-6 sm:gap-8 px-2 sm:px-2 mx-auto"
+          class="flex flex-col gap-6 md:gap-8 px-2 md:px-2 mx-auto"
         >
-          <div class="flex flex-col gap-6 sm:flex-row sm:gap-8">
+          <div class="flex flex-col gap-6 md:flex-row md:gap-8">
             <div
-              class="bg-[#351165]/40 max-w-[400px] sm:max-w-[380px] p-6 sm:px-[40px] sm:py-[107px] rounded-3xl sm:rounded-[40px] card1"
+              class="bg-[#351165]/40 max-w-[400px] sm:max-w-[820px] md:max-w-[380px] p-6 md:px-[40px] md:py-[107px] rounded-3xl md:rounded-[40px] card1"
             >
               <img class="w-[60px] mb-4" src="assets/headphone.png" alt="" />
-              <h4 class="text-[22px] sm:text-[24px] text-white font-[700] mb-4">
+              <h4 class="text-[22px] md:text-[24px] text-white font-[700] mb-4">
                 Premium Audio Quality
               </h4>
               <p class="text-base text-white leading-[24px]">
@@ -196,13 +196,13 @@
                 mastered for optimal listening across all devices and platforms.
               </p>
             </div>
-            <div class="flex flex-col gap-6 sm:gap-8">
+            <div class="flex flex-col gap-6 sm:flex-row md:flex-col md:gap-8">
               <div
-                class="bg-[#351165]/40 w-full max-w-[400px] sm:max-w-[790px] p-6 sm:p-[40px] rounded-3xl sm:rounded-[40px] card1"
+                class="bg-[#351165]/40 w-full max-w-[400px]  md:max-w-[790px] p-6 md:p-[40px] rounded-3xl md:rounded-[40px] card1"
               >
                 <img class="w-[60px] mb-4" src="assets/device.png" alt="" />
                 <h4
-                  class="text-[22px] sm:text-[24px] text-white font-[700] mb-4"
+                  class="text-[22px] md:text-[24px] text-white font-[700] mb-4"
                 >
                   Mobile Friendly
                 </h4>
@@ -213,11 +213,11 @@
               </div>
 
               <div
-                class="bg-[#351165]/40 w-full max-w-[400px] sm:max-w-[790px] p-6 sm:p-[40px] rounded-3xl sm:rounded-[40px] card1"
+                class="bg-[#351165]/40 w-full max-w-[400px]  md:max-w-[790px] p-6 md:p-[40px] rounded-3xl md:rounded-[40px] card1"
               >
                 <img class="w-[60px] mb-4" src="assets/location.png" alt="" />
                 <h4
-                  class="text-[22px] sm:text-[24px] text-white font-[700] mb-4"
+                  class="text-[22px] md:text-[24px] text-white font-[700] mb-4"
                 >
                   Global Community
                 </h4>
@@ -229,16 +229,16 @@
               </div>
             </div>
           </div>
-          <div class="flex flex-col gap-6 sm:flex-row sm:gap-8">
+          <div class="flex flex-col gap-6 sm:flex-row md:gap-8">
             <div
-              class="bg-[#351165]/40 w-full max-w-[400px] sm:max-w-[790px] p-6 sm:p-[40px] rounded-3xl sm:rounded-[40px] card1"
+              class="bg-[#351165]/40 w-full max-w-[400px] sm:max-w-[400px] md:max-w-[790px] p-6 md:p-[40px] rounded-3xl md:rounded-[40px] card1"
             >
               <img
                 class="w-[60px] mb-4"
                 src="assets/Icon (Stroke).png"
                 alt=""
               />
-              <h4 class="text-[22px] sm:text-[24px] text-white font-[700] mb-4">
+              <h4 class="text-[22px] md:text-[24px] text-white font-[700] mb-4">
                 Exclusive Interviews
               </h4>
               <p class="text-base text-white leading-[24px]">
@@ -250,10 +250,10 @@
             </div>
 
             <div
-              class="bg-[#351165]/40 max-w-[400px] sm:max-w-[380px] p-6 sm:p-[40px] rounded-3xl sm:rounded-[40px] card1"
+              class="bg-[#351165]/40 max-w-[400px] sm:max-w-[400px] md:max-w-[380px] p-6 md:p-[40px] rounded-3xl md:rounded-[40px] card1"
             >
               <img class="w-[60px] mb-4" src="assets/resource.png" alt="" />
-              <h4 class="text-[22px] sm:text-[24px] text-white font-[700] mb-4">
+              <h4 class="text-[22px] md:text-[24px] text-white font-[700] mb-4">
                 Rich Resources
               </h4>
               <p class="text-base text-white leading-[24px]">
@@ -268,15 +268,15 @@
 
     <!-- Episodes and Host section -->
     <section
-      class="bg-primary-bg overflow-hidden flex flex-col gap-[60px] sm:gap-[120px] pt-[60px] sm:pt-[120px]"
+      class="bg-primary-bg overflow-hidden flex flex-col gap-[60px] md:gap-[120px] pt-[60px] md:pt-[120px]"
     >
-      <div class="container flex flex-col gap-6 sm:gap-10 items-center">
-        <h2 class="text-[32px] sm:text-5xl font-bold text-white">
+      <div class="container flex flex-col gap-6 md:gap-10 items-center">
+        <h2 class="text-[32px] sm:text-[38px]  md:text-5xl font-bold text-white">
           Featured Episodes
         </h2>
-        <div class="flex flex-col gap-4 sm:flex-row sm:gap-x-[30px] mx-5">
+        <div class="flex flex-col gap-4 sm:grid sm:grid-cols-2 md:grid md:grid-cols-3 md:gap-x-[30px] mx-5">
           <div
-            class="max-w-[400px] sm:max-w-[380px] bg-[#250D44] rounded-[24px] card1"
+            class="max-w-[400px] md:max-w-[380px] bg-[#250D44] rounded-[24px] card1"
           >
             <iframe
               class="w-full h-[225px] rounded-t-[24px]"
@@ -293,10 +293,10 @@
               allowfullscreen
             ></iframe>
             <div class="p-4">
-              <h4 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
+              <h4 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">
                 The Future of AI in Everyday Life
               </h4>
-              <p class="text-base text-white leading-[24px] mb-2 sm:mb-3">
+              <p class="text-base text-white leading-[24px] mb-2 md:mb-3">
                 Exploring how artificial intelligence is transforming our daily
                 routines and what to expect in the next decade.
               </p>
@@ -308,7 +308,7 @@
           </div>
 
           <div
-            class="max-w-[400px] sm:max-w-[380px] bg-[#250D44] rounded-[24px] card1"
+            class="max-w-[400px] md:max-w-[380px] bg-[#250D44] rounded-[24px] card1"
           >
             <iframe
               class="w-full h-[225px] rounded-t-[24px]"
@@ -325,10 +325,10 @@
               allowfullscreen
             ></iframe>
             <div class="p-4">
-              <h4 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
+              <h4 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">
                 Building Better Habits for Remote Work
               </h4>
-              <p class="text-base text-white leading-[24px] mb-2 sm:mb-3">
+              <p class="text-base text-white leading-[24px] mb-2 md:mb-3">
                 Practical strategies for staying productive and maintaining
                 work-life balance in a remote environment.
               </p>
@@ -340,7 +340,7 @@
           </div>
 
           <div
-            class="max-w-[400px] sm:max-w-[380px] bg-[#250D44] rounded-[24px] card1"
+            class="max-w-[400px] md:max-w-[380px] bg-[#250D44] rounded-[24px] card1"
           >
             <iframe
               class="w-full h-[225px] rounded-t-[24px]"
@@ -357,10 +357,10 @@
               allowfullscreen
             ></iframe>
             <div class="p-4">
-              <h4 class="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3">
+              <h4 class="text-xl md:text-2xl font-bold text-white mb-2 md:mb-3">
                 Career Growth in Tech: A Roadmap
               </h4>
-              <p class="text-base text-white leading-[24px] mb-2 sm:mb-3">
+              <p class="text-base text-white leading-[24px] mb-2 md:mb-3">
                 Expert advice on navigating your tech career from junior
                 developer to senior leadership roles.
               </p>
@@ -372,30 +372,30 @@
           </div>
         </div>
       </div>
-      <div class="container mb-[60px] sm:mb-[120px]">
+      <div class="container mb-[60px] md:mb-[120px]">
         <div
-          class="flex flex-col gap-16 justify-center items-center mx-2 sm:mx-0"
+          class="flex flex-col gap-16 justify-center items-center mx-2 md:mx-0"
         >
-          <h2 class="text-[32px] sm:text-5xl font-bold text-white">
+          <h2 class="text-[32px] md:text-5xl font-bold text-white">
             Meet the Host
           </h2>
 
           <div
-            class="bg-[#351165]/40 p-[16px] sm:p-[40px] rounded-2xl sm:rounded-[40px] flex flex-col gap-4 sm:flex-row sm:gap-8 items-center"
+            class="bg-[#351165]/40 p-[16px] md:p-[40px] rounded-2xl md:rounded-[40px] flex flex-col gap-4 md:flex-row md:gap-8 items-center"
           >
             <img
-              class="w-[150px] sm:w-[200px]"
+              class="w-[150px] md:w-[200px]"
               src="assets/host.png"
               alt="not found"
             />
             <div
-              class="flex flex-col gap-4 justify-center items-center sm:justify-start sm:items-start"
+              class="flex flex-col gap-4 justify-center items-center md:justify-start md:items-start"
             >
-              <h4 class="text-2xl sm:text-[32px] font-bold text-white">
+              <h4 class="text-2xl md:text-[32px] font-bold text-white">
                 Alex Kumar
               </h4>
               <p
-                class="text-base text-white leading-[24px] text-center sm:text-left"
+                class="text-base text-white leading-[24px] text-center md:text-left"
               >
                 Tech entrepreneur, productivity expert, and lifelong learner.
                 Alex has been in the tech industry for over 10 years, working
@@ -433,16 +433,16 @@
 
     <!-- footer section -->
     <footer
-      class="bg-[url('./assets/mobile-footer.png')] sm:bg-[url('./assets/footer-bg.png')] bg-no-repeat bg-cover bg-center pt-[40px] sm:pt-[120px] overflow-hidden"
+      class="bg-[url('./assets/mobile-footer.png')] sm:bg-[url('./assets/footer-bg.png')] bg-no-repeat bg-cover bg-center pt-[40px] md:pt-[120px] overflow-hidden"
     >
       <div
-        class="container flex flex-col gap-6 sm:gap-8 justify-center items-center mb-[40px] sm:mb-[120px]"
+        class="container flex flex-col gap-6 sm:gap-7 md:gap-8 justify-center items-center mb-[40px] md:mb-[120px]"
       >
-        <img class="w-[220px] sm:w-[410px]" src="assets/TechWave.png" alt="" />
+        <img class="w-[220px] sm:w-[300px] md:w-[410px]" src="assets/TechWave.png" alt="" />
         <div
-          class="flex flex-col gap-y-4 sm:flex sm:flex-row sm:gap-x-[40px] justify-center items-center"
+          class="flex flex-col gap-y-4 md:flex md:flex-row md:gap-x-[40px] justify-center items-center"
         >
-          <div class="flex flex-row gap-x-4 sm:gap-x-[40px]">
+          <div class="flex flex-row gap-x-4 md:gap-x-[40px]">
             <div class="flex flex-row items-center gap-2">
               <img class="w-[20px]" src="assets/spotify.png" alt="" />
               <p class="text-base font-medium text-white">Spotify</p>
@@ -452,7 +452,7 @@
               <p class="text-base font-medium text-white">Apple Podcasts</p>
             </div>
           </div>
-          <div class="flex flex-row gap-x-4 sm:gap-x-[40px]">
+          <div class="flex flex-row gap-x-4 md:gap-x-[40px]">
             <div class="flex flex-row items-center gap-2">
               <img class="w-[20px]" src="assets/youtube-podcast.png" alt="" />
               <p class="text-base font-medium text-white">YouTube</p>
